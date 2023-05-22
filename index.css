@@ -1,0 +1,126 @@
+body{
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    max-width:1000vw;
+    max-height:1000vh; 
+    border: 1px solid black;
+}
+
+.container{ 
+    width:50%;
+    height:100% ;
+    border: 1px solid black;
+}
+
+h4{
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+    height: auto; 
+    border: 1px solid black;
+}
+.M{
+    font-size: 5rem;
+    margin-right: 5px; 
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.indent{
+    margin-left: 22px;
+}
+.image-box{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cofee{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+.video{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 20px; 
+}
+video{
+    width:100%;
+    height:250px; 
+     
+} 
+.sell{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    display : flex;
+    align-items: center;
+}
+
+.advert{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display : flex;
+    justify-content: space-between;
+}
+.advert-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-img-a{
+    width: 50%;
+    height: 100%; 
+}
+img.product-img{
+    width: 50%;
+    height:  50%; 
+}
+
+.related-post{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.all-post{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+   
+}
+ 
+.post{
+    width: calc(100%/3.2);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img.post-img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
