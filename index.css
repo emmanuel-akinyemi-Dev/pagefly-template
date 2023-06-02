@@ -6,30 +6,36 @@ body{
     background-color: aliceblue;
     max-width:1000vw;
     max-height:1000vh; 
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .container{ 
-    width:50%;
+    width:80%;
     height:100% ;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 h4{
     font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 0
+    ;
 }
 h1{
     font-size: 2rem;
     font-weight: bold;
 }
 .banner{
-    width: 100%;
+    width: 85%;
     height: auto; 
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 .M{
     font-size: 5rem;
     margin-right: 5px; 
+}
+.nam{
+    color: dimgray;
 }
 h2{
     font-size: 1.5rem;
@@ -41,17 +47,28 @@ h2{
 .image-box{
     width: 100%;
     height: auto;
-    border: 1px solid black;
+     /*border: 1px solid black;*/ 
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
+     
+}
+.procedure{
+    width:100%;
+    height:80%;
 }
 .cofee{
     width: 100%;
-    height: 200px;
+    height: 300px;
     display: flex;
-    justify-content: space-around;
-    border: 1px solid black;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+}
+.cofee-img{
+    width: 48%;
+    height: 100%;
 }
 .video{
     width:100%;
@@ -59,26 +76,36 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-bottom: 20px; 
 }
-video{
+iframe{
     width:100%;
-    height:250px; 
+    height:500px; 
      
 } 
 .sell{
     width: 100%;
-    height: 200px;
-    border: 1px solid black;
+    height: auto;
+    /*border: 1px solid black;*/
     display : flex;
     align-items: center;
+    margin-bottom: 20px;
 }
-
+.info{
+    width:40%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+.nav{
+    display:flex
+}
+ 
 .advert{
     width: 100%;
     height: auto;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display : flex;
     justify-content: space-between;
 }
@@ -88,17 +115,25 @@ video{
     align-items: center;
 }
 .product-img-a{
-    width: 50%;
-    height: 100%; 
+    width: 40%;
+    height: 400px;
+    margin-left: 30px;
+    margin-right: 50px; 
+}
+input.qty{
+    width:20%;
+    height:40px;
+    text-align: center;
+    margin-right: 10px;
 }
 img.product-img{
-    width: 50%;
-    height:  50%; 
+    width: 85%;
+    height: 50%; 
 }
 
 .related-post{
     width: 100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +141,7 @@ img.product-img{
 }
 .all-post{
     width: 100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     justify-content: space-between;
    
@@ -114,7 +149,7 @@ img.product-img{
  
 .post{
     width: calc(100%/3.2);
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,5 +157,29 @@ img.product-img{
 img.post-img{
     width: 100%;
     height: 200px;
-    border: 1px solid black;
+   /*border: 1px solid black;*/
+}
+
+button{
+    width: 90%;
+    height: 50px;
+    color: aliceblue; 
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px; 
+    background-color: darkolivegreen;
+}
+
+button.template{
+    width:20%;
+    background-color: mediumslateblue;
+    margin-left: 900px;
+    margin-top: 8px; 
+}
+button.sell{
+    width:28%;
+    height:50px;
+    margin-left: 20px;
+    text-align: center;
+   
 }
