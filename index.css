@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     background-color: aliceblue;
-    max-width:500vw;
+    max-width:100vw;
     max-height:100vh;
     overflow-x: hidden;
 }
@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
 }
 
 h4{
@@ -57,32 +57,37 @@ h2{
     width: 100%;
     height: 200px;
     display: flex;
-    margin:0px;
-    display: flex;
-
+    margin-top:5px;
+    margin-bottom: 10px;
     
 }
 .cofee img{
     width:50% ;
-    margin-right: 2px;
+    height:auto;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.cofee #left {
+        margin-right: 0px;
 }
 .video{
-    width:100%;
-    height:auto;
+    width:98%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2px;
     margin-bottom: 20px; 
 }
 video{
     width:100%;
-    height:250px; 
+    height:200px;
 } 
 .sell{
-    width: 100%;
+    width: 80%;
     height: 200px;
     display : flex;
-    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .advert{
@@ -90,6 +95,8 @@ video{
     height: auto;
     display : flex;
     justify-content: space-between;
+    margin: 2px;
+    
 }
 .advert-product{
     display: flex;
@@ -97,15 +104,36 @@ video{
     align-items: center;
     
 }
+.advert-product button{
+width:50%;
+    
+}
 .product-img-a{
     width: 45%;
-    height: 90%; 
-    margin-right: 20px
+    height: auto; 
+    margin-right: 10px
 }
+
+.info{
+    width: 45%;
+    height: auto; 
+    margin-right: 0px;
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info input{
+    width: 50%; 
+}
+.info button{
+    width: 80%;
+    margin-top: 5px; 
+}
+
 .product-img{
-    width:60%;
+    width:50%;
     height:  50%; 
-    margin: 12px;
 }
 
 .related-post{
@@ -145,8 +173,19 @@ footer{
     width: 100%;
     height: auto;
 }
-
-@media screen and (max-width:400px) {
+footer{
+    margin-top: 10px;
+ width: 100%;
+ 
+}
+footer a{
+    text-decoration: none;
+   
+   }
+footer li {
+    list-style: none;
+   }
+@media screen and (max-width:500px) {
     .container{
         width:100%;
         height:100% ;
@@ -155,24 +194,23 @@ footer{
        justify-content: center;
     }
     .cofee{
-        width: 100%;
-        height: 200px;
+        width: 98%;
+        height:auto;
         display: flex;
         flex-direction: column;
-        margin-bottom:20p;
-    
-        
+      
     }
+    .cofee #left {
+        margin: 0px;
+    }
+
     .cofee img{
         width:100% ; 
-
     }
 
     .all-post{
         flex-direction: column;
-        align-items: center;
-       
-        
+        align-items: center;   
     }
     h2{
         font-size: 1.15rem;
@@ -194,5 +232,46 @@ margin-bottom: 50px;
 .advert {
     width: 100%;
     flex-direction: column;
-    }
+ }
+ video{
+    width:100%;
+    height:200px;
+} 
+.sell{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.product-img-a{
+    width: 100%;
+    height: auto;
+   
+}
+.info{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.advert-product img{
+    width: 100%;
+}
+.advert-product button{
+    width: 80%;
+}
+#credit{
+    display: none;
+}
+footer{
+    margin-top: 10px;
+ width: 100%;
+ 
+}
+footer a{
+    text-decoration: none;
+   
+   }
+footer li {
+    list-style: none;
+   }
 }
